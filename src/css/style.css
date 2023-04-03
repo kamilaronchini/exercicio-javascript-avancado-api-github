@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+body {
+    background-color: #24292e;
+    font-family: "Kumbh Sans", sans-serif;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0 0;
+}
+
+.devicon-github-original {
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.container header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.container header h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.container header #input-search {
+    width: 70%;
+    font-size: 17px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid crimson;
+}
+
+.container header #btn-search {
+    width: 40%;
+    font-size: 17px;
+    margin: 20px auto 0;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px solid grey;
+    transition: 0.3s ease-in-out;
+}
+
+.container header #btn-search:hover {
+    background-color: crimson;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.container .profile-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .profile-data img {
+    border: 5px solid crimson;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width:80%
+}
+
+.container .profile-data .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    min-width: 60%;
+    padding: 5px;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.container .profile-data .repositories {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .profile-data .repositories ul{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container .profile-data .repositories ul li a {
+    padding: 20px;
+    border: 1px solid grey;
+    margin: 20px;
+    display: block;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .profile-data .repositories ul li a:hover {
+    background-color: crimson;
+    border: crimson;
+    color: #fff
+}
+
+.container .profile-data .repositories .info-repo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container .profile-data .repositories .info-repo p{
+    background-color: crimson;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.container .profile-data .events{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .profile-data .events ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container .profile-data .events .event-name{
+    font-weight: bold;
+}
+
+.container .profile-data .dif-type {
+    font-weight: bold;
+    border: 2px solid crimson;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
